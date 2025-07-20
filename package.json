@@ -1,0 +1,77 @@
+{
+  "name": "moviemaster",
+  "version": "1.0.0",
+  "description": "A sophisticated movie discovery application showcasing modern web development practices, advanced sorting algorithms, and beautiful UI/UX design.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve .",
+    "test": "echo 'Run tests in browser console or add testing framework'",
+    "dev": "npx live-server .",
+    "build": "echo 'This is a vanilla JS project - no build step required'",
+    "lint": "echo 'Linting with ESLint would go here'",
+    "format": "echo 'Code formatting with Prettier would go here'"
+  },
+  "keywords": [
+    "javascript",
+    "movie-discovery",
+    "sorting-algorithms",
+    "web-development",
+    "vanilla-js",
+    "css-grid",
+    "responsive-design",
+    "omdb-api",
+    "portfolio-project",
+    "modern-ui",
+    "bubble-sort",
+    "quick-sort",
+    "merge-sort",
+    "insertion-sort",
+    "favorites-system",
+    "local-storage",
+    "ajax",
+    "fetch-api",
+    "css-custom-properties"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://your-portfolio.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/moviemaster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/moviemaster/issues"
+  },
+  "homepage": "https://your-username.github.io/moviemaster",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {},
+  "files": [
+    "index.html",
+    "style.css",
+    "index.js",
+    "star_wars_movies.json",
+    "README.md"
+  ],
+  "directories": {
+    "test": "."
+  },
+  "config": {
+    "port": "8000"
+  }
+}
